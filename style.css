@@ -1,0 +1,63 @@
+/* JS manipulated styles */
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: inline-block;
+}
+
+/* Appearance Styles */
+
+.slider {
+  margin: 0 auto;
+}
+
+@media (min-width: 50rem) {
+  .slider {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+ .slides {
+     position: relative;
+}
+.frame {
+    padding-left: 0;
+} 
+.slide {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 3rem;
+  color: white;
+
+.prev,
+.next {
+  height: 2rem;
+  border: 0;
+}
+
+.prev:hover,
+.next:hover {
+  color: white;
+  background: #333;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev{
+    left: 10px
+}
+
+.next{
+    right: 10px;
+}
+
+img{
+    width: 100%;
+}
